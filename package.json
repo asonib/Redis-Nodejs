@@ -1,0 +1,17 @@
+{
+  "name": "redisnode",
+  "version": "1.0.0",
+  "description": "Redis Node.js Implementation",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ASB",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "redis": "^3.0.2",
+    "response-time": "^2.3.2"
+  }
+}
