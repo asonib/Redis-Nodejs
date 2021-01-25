@@ -5,7 +5,7 @@ A Redis-Nodejs Example for reducing response time from the server. Make a reques
 
 ![alt text](https://github.com/asonib/Redis-Nodejs/blob/master/others/img/before.JPG)
 
-**First Call To The API**: `The response time is 4milli-second. The query key is found in the redis store therefore an the response time is very low because it is fetching from the redis cache.`
+**Next Call To The Same API Endpoint**: `The response time is 4milli-second. The query key is found in the redis store therefore an the response time is very low because it is fetching from the redis cache.`
 
 ![alt text](https://github.com/asonib/Redis-Nodejs/blob/master/others/img/after.JPG)
 
